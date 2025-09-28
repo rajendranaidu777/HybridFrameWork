@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [GridSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="os" value="window"/>
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="TestCases.Tc2_qafoxLogin">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="logged"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.Tc2_qafoxLogin -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="6" parallel="tests" name="Test(failed)">
+    <parameter name="os" value="window"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.Tc2_qafoxLogin">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="logged"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.Tc2_qafoxLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [GridSuite] -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-27T14:39:15 IST" name="GridSuite" finished-at="2025-09-27T14:39:50 IST" duration-ms="34913">
+    <groups>
+    </groups>
+    <test started-at="2025-09-27T14:39:15 IST" name="Test" finished-at="2025-09-27T14:39:32 IST" duration-ms="17455">
+      <class name="TestCases.Tc2_qafoxLogin">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Tc2_qafoxLogin@3f56875e]" started-at="2025-09-27T14:39:15 IST" name="browserLaunch" finished-at="2025-09-27T14:39:23 IST" duration-ms="8306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="logged()[pri:0, instance:TestCases.Tc2_qafoxLogin@3f56875e]" started-at="2025-09-27T14:39:23 IST" name="logged" finished-at="2025-09-27T14:39:32 IST" duration-ms="8800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logged -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Tc2_qafoxLogin@3f56875e]" started-at="2025-09-27T14:39:32 IST" name="teardown" finished-at="2025-09-27T14:39:32 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.Tc2_qafoxLogin -->
+    </test> <!-- Test -->
+    <test started-at="2025-09-27T14:39:32 IST" name="EdgeTest" finished-at="2025-09-27T14:39:50 IST" duration-ms="17328">
+      <class name="TestCases.Tc2_qafoxLogin">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Tc2_qafoxLogin@5939a379]" started-at="2025-09-27T14:39:32 IST" name="browserLaunch" finished-at="2025-09-27T14:39:41 IST" duration-ms="8240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="logged()[pri:0, instance:TestCases.Tc2_qafoxLogin@5939a379]" started-at="2025-09-27T14:39:41 IST" name="logged" finished-at="2025-09-27T14:39:49 IST" duration-ms="8776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logged -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Tc2_qafoxLogin@5939a379]" started-at="2025-09-27T14:39:49 IST" name="teardown" finished-at="2025-09-27T14:39:50 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.Tc2_qafoxLogin -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- GridSuite -->
+</testng-results>
